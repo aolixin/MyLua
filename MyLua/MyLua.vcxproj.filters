@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{ec2fed19-186c-48dd-832f-56dd15d86da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{f5a4819a-235a-4d05-8c7e-ae53d6e3682d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\LuaRef\include\lauxlib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaRef\include\lua.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaRef\include\lua.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaRef\include\luaconf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaRef\include\lualib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaHandler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentRegFunc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_lua_call_c_class.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main_lua_call_c_dll.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main_lua_call_c_func.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main_lua_class.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main_read_lua_onfig.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentRegFunc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

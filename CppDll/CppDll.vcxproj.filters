@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{076b4bc5-6cdd-4850-a75a-fb19415bfd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{ce43388e-ef9d-49e4-9b71-baf4d4ac2b8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\LuaRef\include\lauxlib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaRef\include\lua.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaRef\include\lua.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaRef\include\luaconf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LuaRef\include\lualib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CppDll.h">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
